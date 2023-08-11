@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>O que é Node.JS? </title>
+</head>
+<body style="margin-left: 9em; margin-right: 9em">
+<img src="assets/img/logonode.png" height="50" width="50" alt="imagem logo.js"
+     style="align-content: flex-start">
+<header style="text-align:center">
+    <h1>
+        O que é Node.JS?
+    </h1>
+    <h2>
+        O que é e como aprender Node.JS?
+    </h2>
+    <h3>
+        Saiba o que é Node.js, um software gratuito e de código aberto que permite executar código JavaScript do lado do
+        servidor.
+    </h3>
+    <h4>
+        É importante que o leitor saiba sobre JavaScript, pois o Node.js executa o código Javascript. Portanto, se você
+        não sabe o que é JavaScript recomendo essa leitura antes de
+        prosseguir.
+    </h4>
+    <a href="http://localhost:63342/mysite2/javascript.html?_ijt=mh1hj87stoabv1nn716ikdktll&_ij_reload=RELOAD_ON_SAVE"
+       target="_blank">
+        <img src="assets/img/js.jpeg" align="center" height="150" width="300" alt="imagem javascript">
+    </a>
+    <p>
+        <a href="http://localhost:63342/mysite2/javascript.html?_ijt=mh1hj87stoabv1nn716ikdktll&_ij_reload=RELOAD_ON_SAVE"
+           target="_blank">JavaScript
+        </a>
+    </p>
+    <img src="assets/img/nodejs.png" align="center" height="600" width="1150" alt="imagem nodejs">
+</header>
+<nav align="center">
+    <ul>
+        <a href="index.php">Home</a>
+        <a href="site.php">Site</a>
+        <a href="contato.php">Contato</a>
+    </ul>
+</nav>
+<section style='font-size:18px'>
+    <h1>
+        O que é Node.JS?
+    </h1>
+    <p>
+        Node.js é um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do
+        cliente para servidores. O Node.js usa um modelo de E/S (entrada e saída) direcionada a evento não bloqueante
+        que o torna
+        leve e eficiente, ideal para aplicações em tempo real com troca intensa de dados através de dispositivos
+        distribuídos. Isso significa que as
+        operações de entrada e saída (ex: acesso a banco de dados e leitura de arquivos do sistema) são assíncronas e
+        não bloqueiam a thread. Diferentemente dos servidores tradicionais, a thread não fica esperando que essas
+        operações sejam concluídas para continuar sua execução.
+    </p>
+    <p>
+        O ambiente de tempo de execução chamado Node.js inclui tudo de que você precisa para executar um programa
+        escrito em JavaScript. Ele também é um ambiente de desenvolvimento que permite utilizar JavaScript para
+        desenvolver aplicações de rede rápidas e escaláveis. Isso significa que o Node.js é capaz de
+        executar um programa JavaScript fora de um navegador.
+    </p>
+    <p>
+        O Node.js é um ambiente de tempo de execução do JavaScript. Certo, mas o que isso quer dizer? Como é que ele
+        funciona?
+    </p>
+    <p>
+        O Node.js é executado em cima do interpretador JavaScript V8, o motor de JavaScript open source do Google
+        Chrome. O Node.js tem um modelo de I/O ("I/O" se refere, principalmente, à interação com o disco do sistema e a
+        rede suportada pela libuv.) direcionada a evento não bloqueante que o torna leve e eficiente. O
+        ecossistema de pacotes do Node.js, o npm, é o maior ecossistema de bibliotecas de código aberto do mundo.
+    </p>
+    <p>
+        Apesar de recente, o Node.js já é utilizado por grandes empresas no mercado de tecnologia, como Netflix, Uber e
+        LinkedIn. O Node.js é uma tecnologia que está em constante evolução e crescimento, e que tem um futuro
+        promissor.
+    </p>
+</section>
+<section>
+    <iframe width="1200" height="480" src="https://www.youtube.com/embed/8VSTrZY8vwI"
+            title="O que é Node.js? | #AluraMais" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+    </iframe>
+</section>
+<section style='font-size:18px'>
+    <p>
+        O JavaScript foi criado para facilitar o desenvolvimento de sites mais interativos e dinâmicos, como uma
+        linguagem de programação de alto nível que roda nos navegadores. Com a evolução da web, outras utilidades foram
+        criadas para a linguagem. Uma delas é o Node.js
+    </p>
+</section>
+<section>
+    <iframe width="1200" height="480" src="https://www.youtube.com/embed/vYekSMBCCiM"
+            title="Node.js // Dicionário do Programador" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+    </iframe>
+</section>
+<article style='font-size:18px'>
+    <h1>
+        História do Node.js
+    </h1>
+    <p>
+        O Node.js foi criado em 2009 por Ryan Dahl, um engenheiro de software americano, que trabalhava na Joyent, uma
+        empresa de computação em nuvem. Dahl estava trabalhando em um projeto de rede em tempo real com o Google Chrome
+        e ficou frustrado com a falta de eficiência do Apache HTTP Server para lidar com um grande número de conexões
+        simultâneas. Ele então decidiu criar um novo sistema que pudesse lidar com milhares de conexões simultâneas com
+        baixo consumo de recursos. O resultado foi o Node.js, que foi escrito em C, C++ e JavaScript.
+    </p>
+</article>
+<img src="assets/img/historia-node-js-linha-tempo.webp" align="center" height="2300" width="1200"
+     alt="imagem historia node js linha do tempo">
+<article style='font-size:18px'>
+    <h1>
+        Como o Node.JS funciona?
+    </h1>
+    <p>
+        A principal característica do Node.js é sua execução ser single-thread, ou seja, os recursos computacionais são
+        alocados apenas uma vez pelo tempo que a aplicação estiver sendo executada. Aplicações multi-thread, como as
+        criadas com PHP, por exemplo, requerem a criação de uma thread a cada nova requisição, e ela não é executada
+        enquanto a anterior não for finalizada.
+    </p>
+    <p>
+        Essa thread única é chamada de “Event Loop”. Ela trata todas as requisições como eventos, de maneira assíncrona
+        e não-bloqueável, eliminando a necessidade de filas de processamento e tornando as aplicações mais eficientes e
+        responsivas.
+    </p>
+    <p>
+        O Node.js não é um framework JavaScript, como o React ou o Vue.js, mas sim um ambiente de execução em uma
+        máquina virtual própria para interpretar e executar os scripts de forma autônoma, baseada no “motor” V8, criado
+        pelo Google para o navegador Chrome.
+    </p>
+    <img src="assets/img/exemplo%20de%20codigo%20javascript.jpeg" alt="imagem ex codigo java script">
+</article>
+<article style='font-size:18px'>
+    <h1>
+        Assíncrono, single thread e orientado a eventos
+    </h1>
+    <p>
+        Uma das características do Node.js é ser um ambiente de execução assíncrono. Com isso, ele trabalha de forma
+        a não bloquear a aplicação no momento de sua execução, colocando os processos mais demorados para um segundo
+        plano.
+    </p>
+    <p>
+        O Node.js se diferencia de outras plataformas consagradas de programação, como o Java, PHP e .NET, pelo fato
+        de ser single thread, ou seja, o Node.js não inicia threads em paralelo como outras plataformas. Por se
+        tratar de um sistema single thread, o Node.js não tem a necessidade do gerenciamento de múltiplas threads,
+        otimizando, assim, o processo e o consumo de memória da aplicação.
+    </p>
+    <p>
+        A característica do Node.js que faz com ele não seja lento ou demore a processar a fila de requisição é ser
+        não bloqueante; isso tem a ver com o sistema de callbacks do JavaScript e o loop de eventos.
+    </p>
+</article>
+<article style='font-size:18px'>
+    <h1>
+        Vantagens do Node.js
+    </h1>
+    <p>
+        O Node.js é uma plataforma que tem como principal característica a execução de códigos JavaScript no
+        servidor. Com isso, o Node.js permite que o desenvolvedor crie aplicações web escaláveis e de alta
+        performance utilizando apenas uma linguagem de programação.
+    </p>
+</article>
+<article style='font-size:18px'>
+    <h1>
+        Características do Node.JS
+    </h1>
+    <p>
+        Já falamos de algumas características do Node.js, mas vale ressaltar que ele pode
+        ser usado para:
+    </p>
+    <ul>
+        <li> Desenvolver soluções em API Rest;</li>
+        <li> Criação de chatbots;</li>
+        <li> Projetos de internet das coisas (IoT); e</li>
+        <li> Dar vida a soluções de web scraping, web servers e até mesmo aplicações desktop.</li>
+    </ul>
+    <p>
+        O Node.js possui uma versatilidade gigantesca. Veja algumas outras características que não podemos deixar de
+        comentar:
+    </p>
+    <ul>
+        <li>
+            Escalabilidade: o Node.js foi pensando desde o ínicio para entregar soluções para arquiteturas
+            escaláveis, por isso sua adoção por grandes empresas de tecnologias;
+        </li>
+        <li>
+            Multiplataforma: podemos criar desde soluções web a aplicações desktop;
+        </li>
+        <li>
+            Velocidade: o Node.js é muito rápido, pois utiliza o motor V8 do Google Chrome para interpretar o
+            JavaScript;
+        </li>
+        <li>
+            Comunidade: o Node.js possui uma comunidade muito ativa, o que nos permite encontrar soluções para
+            problemas comuns;
+        </li>
+        <li>
+            NPM: o Node Package Manager é um gerenciador de pacotes que nos permite instalar bibliotecas e
+            frameworks de forma simples e rápida;
+        </li>
+        <li>
+            Código aberto: o Node.js é um projeto open source, o que nos permite contribuir com o projeto e até
+            mesmo realizar customizações;
+        </li>
+        <li>
+            Multi-paradigma: com o JavaScript podemos adotar várias formas de codificar usando paradigmas como a
+            orientação a objetos, o funcional e o orientado a eventos.
+        </li>
+        <li>
+            Para se trabalhar com o Node.js é preciso conhecer as bases do JavaScript, que é uma linguagem com
+            grande receptividade, principalmente para os iniciantes, pois possui uma curva de aprendizagem mais
+            suave em comparação a outras linguagens.
+        </li>
+    </ul>
+</article>
+<article style='font-size:18px'>
+    <h1>
+        Módulos do Node.js
+    </h1>
+    <p>
+        O Node.js trabalha fortemente com o conceito de módulo, que visa organizar o código em partes pequenas e
+        especializadas, além de aplicar o princípio de encapsulamento ao “esconder” o código e expor somente o
+        necessário a outras partes da aplicação.
+    <p>
+        Originalmente o Node.js trabalhava com o sistema CJS (Common JS) de modularização, pois o JavaScript não
+        tinha ferramentas específicas para isso. Posteriormente foi especificado o padrão “geral” de módulos do
+        JavaScript, o EcmaScript Modules.
+    <p>
+        O Node.js vem adotando gradativamente o ECMAScript Modules desde a versão 13, o que traz muitas
+        diferenças com relação à forma “original” do Node.js, o CJS. Por isso, é importante conhecer as
+        diferenças entre os dois padrões de módulos.
+    </p>
+</article>
+<article style='font-size:18px'>
+    <h1>
+        O que é o npm?
+    </h1>
+    <p>
+        O npm é o gerenciador de pacotes do Node.js. Ele é um repositório online para publicação de projetos de
+        código
+        aberto para Node.js, e um utilitário de linha de comando para instalação, além de gerenciamento de
+        dependências
+        de projetos Node.js.
+    </p>
+    <p>
+        O npm é composto por um cliente de linha de comando e um banco de dados online de pacotes públicos e
+        privados,
+        chamado de registro npm. O registro é acessado via cliente e a linha de comando interage com o registro por
+        meio
+        de APIs RESTful. O cliente de linha de comando interage com o usuário e o registro por meio de chamadas de
+        procedimento remoto (RPC).
+    </p>
+    <p>
+        Ele é escrito em JavaScript, tornando-o compatível com qualquer ambiente que suporte o Node.js. O npm é
+        distribuído com o Node.js, o que significa que quando você baixa o Node.js, o npm é instalado
+        automaticamente no
+        seu computador.
+    </p>
+</article>
+<article style='font-size:18px'>
+    <h1>
+        Usando o NPM
+    </h1>
+    <img src="assets/img/npm-node-package-manager.webp" alt=" img npm">
+    <p>
+        No processo de instalação do Node.js nos é entregue também o NPM (Node Package Manager), que vai nos
+        permitir compartilhar os módulos que criamos com a comunidade além de possibilitar a reutilização de módulos
+        criados por outras pessoas desenvolvedoras.
+    <p>
+        Para verificar a instalação e versão do NPM você pode executar o comando npm -v:
+    </p>
+    <img src="assets/img/verificar-instalacao-versao-npm.png" alt="img npm">
+    <p>
+        Através do NPM podemos gerenciar todas dependências dos projetos JavaScript que estamos desenvolvendo, com
+        ele temos acesso a uma gama enorme de bibliotecas e frameworks JS, e possibilita também a criarmos nossos
+        próprios módulos e compartilhar com a comunidade. Para isso, basta acessar o site do NPM e criar uma conta
+        gratuita.
+</article>
+<aside style='font-size:18px'>
+    <h1>
+        Conclusão
+    </h1>
+    <p>
+        O JavaScript é uma linguagem muito popular e nos últimos anos vimos nascer vários frameworks que a utilizam. Com
+        o Node.js é possível usar todo o poder do JavaScript também no backend, além de chatbots, IoT, desenvolvimento
+        de aplicações desktop e até mesmo IA.
+    </p>
+    <p>
+        Para as pessoas desenvolvedoras, independente da linguagem, hoje, já é um diferencial ter conhecimentos em
+        Node.js. Quer dar um mergulho ainda mais profundo? Deixamos aqui algumas referências que serão de grande
+        ajuda:
+    </p>
+    <ul>
+        <li>
+            <a href="https://nodejs.org/pt-br/download/package-manager" target="_blank">Instalando Node.js via
+                gerenciador pacotes
+            </a>
+        </li>
+        <li>
+            <a href="https://learn.microsoft.com/pt-br/azure/developer/javascript/how-to/with-visual-studio-code/install-run-debug-nodejs"
+               target="_blank">
+                Como desenvolver e depurar o Node.js com o Visual Studio Code
+            </a>
+        </li>
+        <li>
+            <a href="https://nodejs.org/en/about" target="_blank">Site Node.org
+            </a>
+        </li>
+    </ul>
+</aside>
+<footer>
+    <p style="text-align:right">
+        Desenvolvido por: <a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_World_Wide_Web/" target="_blank">World
+        Wide Web</a>
+    </p>
+</footer>
+</body>
+</html>
